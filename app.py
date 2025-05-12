@@ -34,4 +34,33 @@ if st.button("Check if Fake"):
     """,
     unsafe_allow_html=True
 )
+# Add a floating badge in the corner
+st.markdown(
+    """
+    <style>
+    .badge-container {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: #f0f0f0;
+        padding: 6px 12px;
+        border-radius: 6px;
+        box-shadow: 0 0 6px rgba(0,0,0,0.1);
+        font-size: 12px;
+        z-index: 9999;
+    }
+    </style>
+    <div class="badge-container">
+        🔧 Built by <a href="https://linkedin.com/in/anurag-dewangan-6a0844361" target="_blank">Anurag Dewangan</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# Add a "Connect with me" section
+st.markdown("---")
+st.markdown("### 🤝 Connect with Me")
+st.markdown(
+    "[![LinkedIn](https://img.shields.io/badge/-Anurag%20Dewangan-blue?style=for-the-badge&logo=Linkedin)](https://linkedin.com/in/anurag-dewangan-6a0844361)"
+)
 
