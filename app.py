@@ -24,3 +24,14 @@ if st.button("Check if Fake"):
             st.error("🚩 This job posting looks **FAKE**.")
         else:
             st.success("✅ This job posting looks **REAL**.")
+
+            st.markdown(
+    """
+    <hr style="margin-top: 2em;">
+    <div style="text-align: center; font-size: 0.9em;">
+        🚀 Website built by <a href="https://linkedin.com/in/anurag-dewangan-6a0844361" target="_blank">Anurag Dewangan</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
